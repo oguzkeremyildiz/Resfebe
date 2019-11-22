@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Resfebe</string>
+    <string name="kontrol_yazi">Kontrol Et</string>
+    <string name="cevabi_yaz">Cevabı Yazınız</string>
+    <string name="pas_gec">Pas Geç</string>
+    <string name="KolayEkran">Kolay</string>
+    <string name="OrtaEkran">Orta</string>
+    <string name="ZorEkran">Zor</string>
+    <string name="YardimEkran">Yardım</string>
+</resources>

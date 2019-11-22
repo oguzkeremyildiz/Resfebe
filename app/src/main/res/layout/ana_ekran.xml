@@ -1,0 +1,55 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="54dp"
+        android:src="@mipmap/logo" />
+
+    <Button
+        android:id="@+id/basitDugme"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="185dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="Kolay" />
+
+    <Button
+        android:id="@+id/ortaDugme"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_alignTop="@+id/basitDugme"
+        android:layout_marginLeft="150dp"
+        android:background="@color/colorPrimary"
+        android:text="Orta" />
+
+    <Button
+        android:id="@+id/zorDugme"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_alignTop="@+id/basitDugme"
+        android:layout_marginLeft="290dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="Zor" />
+
+    <Button
+        android:id="@+id/yardimDugme"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="290dp"
+        android:layout_marginBottom="10dp"
+        android:text="Yardım" />
+
+</RelativeLayout>

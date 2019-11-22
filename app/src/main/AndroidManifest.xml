@@ -1,0 +1,30 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.resfebe">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/resfebe"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/resfebe"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+    <activity android:name=".Ekran.AnaEkran">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+    <activity android:name=".Ekran.KolayEkran"
+        android:label="@string/KolayEkran">
+    </activity>
+    <activity android:name=".Ekran.OrtaEkran"
+        android:label="@string/OrtaEkran">
+    </activity>
+    <activity android:name=".Ekran.ZorEkran"
+        android:label="@string/ZorEkran">
+    </activity>
+    <activity android:name=".Ekran.YardimEkran"
+        android:label="@string/YardimEkran">
+    </activity>
+    </application>
+</manifest>

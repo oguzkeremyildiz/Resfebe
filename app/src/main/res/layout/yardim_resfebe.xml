@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+            android:id="@+id/Resfebe"
+            android:layout_width="445dp"
+            android:layout_height="300dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:text="Resfebe; harf, sayı ve resimlerin bir arada kullanılarak bir kelimeyi bulmaya dayanan zeka oyunudur. Resfebe ismi, “resim” ve “alfabe” kelimelerinden üretilmiştir."
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
+
+        <TextView
+            android:id="@+id/Resfebe2"
+            android:layout_width="375dp"
+            android:layout_height="432dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+            android:text="Resfebe Oyunları: Resfebe oyunları, zeka için çok önemli bir yere sahiptir. Harfler ve rakamlar ya da resimlerle bağ kurulmasını sağlayan resfebe, aktif düşünmeyi hızlandırmaktadır."
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
+
+</RelativeLayout>

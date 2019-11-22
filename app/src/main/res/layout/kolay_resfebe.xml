@@ -1,0 +1,56 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/cevapYazi"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="195dp"
+        android:enabled="true"
+        android:hint="Cevap"
+        android:text="" />
+
+    <Button
+        android:id="@+id/kontrolDugme"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="260dp"
+        android:layout_marginBottom="105dp"
+        android:text="Kontrol Et" />
+
+    <Button
+        android:id="@+id/pasDugme"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="105dp"
+        android:text="Pas Geç" />
+
+    <ImageView
+        android:id="@+id/resim1"
+        android:layout_width="170dp"
+        android:layout_height="230dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="126dp"
+        android:layout_marginEnd="-160dp"
+        android:layout_marginRight="-160dp"
+        android:layout_toStartOf="@+id/cevapYazi"
+        android:layout_toLeftOf="@+id/cevapYazi" />
+
+    <ImageView
+        android:id="@+id/resim2"
+        android:layout_width="170dp"
+        android:layout_height="230dp"
+        android:layout_alignTop="@+id/resim1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginRight="21dp" />
+
+</RelativeLayout>
